@@ -9,8 +9,8 @@ param environmentName string
 @description('Primary location for all resources')
 param location string
 
-param appServicePlanName string = ''
-param backendServiceName string = ''
+param appServicePlanName string = 'dpc-members-voltwrite-app-plan'
+param backendServiceName string = 'dpc-members-voltwrite-app'
 param resourceGroupName string = ''
 
 param searchServiceName string = ''
